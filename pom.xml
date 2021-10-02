@@ -41,7 +41,8 @@
 		            <environment>${env}</environment>
 		            <applicationName>${appname}</applicationName>
 		            <businessGroup>${business}</businessGroup>
-		            <workerType>${workers}</workerType>
+		            <workers>${workers}</workers>
+                            <workerType>${workerType}</workerType>
 		            <objectStoreV2>true</objectStoreV2>
 		        </cloudHubDeployment>
 		      <classifier>mule-application</classifier>  
