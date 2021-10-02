@@ -15,7 +15,7 @@
        	<!-- as per reference<app.runtime>4.3.0</app.runtime> -->
 		<app.runtime>4.3.0</app.runtime>
 		<!-- maven plugin updated -->
-	<!--	<mule.maven.plugin.version>3.8.1</mule.maven.plugin.version>  -->
+	<!--	<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>  -->
 		 <mule.maven.plugin.version>3.5.1</mule.maven.plugin.version>
 	</properties>
 
