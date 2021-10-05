@@ -46,6 +46,7 @@
 		            <objectStoreV2>true</objectStoreV2>
 			    <properties>
 				<environment>${environment}</environment>
+				<envName>${envName}</envName>     
 			    </properties>	
 		        </cloudHubDeployment>
 		      <classifier>mule-application</classifier>  
