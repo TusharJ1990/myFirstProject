@@ -14,7 +14,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<http:listener doc:name="Listener" doc:id="4d075351-df44-4071-8472-05156e00433d" config-ref="HTTP_Listener_config" path="/sample"/>
 		<logger level="INFO" doc:name="Logger" doc:id="94be6928-fc0b-4c6d-8b81-37f9e95e1985" message="Inside logger"/>
 		<logger level="INFO" doc:name="Logger" doc:id="1c84ada3-a2c5-4ae0-bc6b-1c6e801d04df" message="${environment}"/>
-		<logger level="INFO" doc:name="Logger" doc:id="1c84ada3-a2c5-4ae0-bc6b-1c6e801d04df" message="${env.Name}"/>
+		<logger level="INFO" doc:name="Logger" doc:id="1c84ada3-a2c5-4ae0-bc6b-1c6e801d04df" message="${envName}"/>
 		<ee:transform doc:name="Transform Message" doc:id="dde5e0cf-47f6-4ecd-8bce-335bb7b7d940" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
